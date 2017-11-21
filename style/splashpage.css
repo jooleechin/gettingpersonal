@@ -1,0 +1,94 @@
+html{
+    width: 100vw;
+    height: 100%vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:
+        linear-gradient(
+          to right, 
+          #F9DDDC 50%,
+          white 50%
+        );
+    padding-left: 20px;
+    padding-right: 20px;
+    background-position: center top;
+    background-size: 100% auto;
+    color: #0000FF;
+}
+
+nav {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: 4px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a{
+    margin-top: 30px;
+}
+
+.content {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    font-family: 'Cabin', sans-serif;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    font-size: 45px;
+    letter-spacing: 20px;
+    font-weight: 600;
+    top: 45%;
+    left: 8%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.words {
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    margin: 0px;
+    letter-spacing: 2px;
+    padding-top: 340px;
+    background-color: firebrick;
+    position: absolute;
+    margin-left: -55px;
+}
+
+.words p{
+    margin-left: -540px;
+}
+
+
+.photo{
+    display: block;
+    padding-top: 150px;
+    margin-left: 270px;
+}
+
+.photo img{
+    max-height: auto;
+    max-width: 33vw;
+    display: block;
+}
+
+.sentence {
+    font-family: 'Cabin', sans-serif;
+    right: 15%;
+    bottom: 25%;
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+@media 
