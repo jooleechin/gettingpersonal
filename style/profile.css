@@ -165,6 +165,10 @@ nav a{
     font-size: 24px;
 }
 
+.fa {
+    margin-bottom: 16px;
+}
+
 .education_title {
     width: 40vw;
     background-color: #d4aeb1;
@@ -222,11 +226,49 @@ nav a{
 }
 
 .badge{
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 12px;
 }
+/*end of projects*/
+/*beginning of experience*/
+.experience_title {
+    width: 40vw;
+    text-shadow: 3px 3px #A64253;
+}
 
+.experience_item{
+    max-width: 60vw;
+    font-family: 'Cabin', sans-serif;
+    margin: auto;
+    
+}
 
+.exp{
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.exp p{
+    margin: 0;
+}
+
+.dates{
+    width: 30vw;
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+}
+
+.company{
+    width: 50vw;
+}
+
+.company > p:first-child{
+    font-weight: 600;
+}
 
 
 
