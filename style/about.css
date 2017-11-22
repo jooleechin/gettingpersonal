@@ -1,0 +1,24 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+body {
+    background-color: white;
+    color: #0000FF;
+}
+
+nav {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: 4px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a{
+    margin-top: 30px;
+}
