@@ -1,0 +1,235 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+body {
+    background-color: white;
+    color: #0000FF;
+}
+
+nav {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: 4px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a{
+    margin-top: 30px;
+}
+
+.full_height {
+    display: flex;
+    height: 100vh;
+}
+
+.summary{
+    margin: 0 auto;
+    max-width: 960px;
+/*    background-color: aqua;*/
+    justify-content: center; 
+    align-items: center;
+}
+
+.summary h2{
+    font-size: 40px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 65px;
+}
+
+.skills{
+    font-family: 'Cabin', sans-serif;
+}
+
+.title {
+    width: 40vw; /*sizeofwindow*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4aeb1;
+    font-family: 'Cabin', sans-serif;
+}
+
+.title h2{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 7px;
+}
+
+.skills_title{
+    background-color: #d4aeb1;
+    text-shadow: 3px 3px #A64253;
+}
+
+.skills_content{
+    width: 60vw; /*size of window*/
+}
+
+.skills_subsec{
+    display: flex;
+    justify-content: center;
+/*    background-color: azure;*/
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.skills_subsec p{
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.language_bubble {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    max-width: 500px;
+    margin: auto;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: #d4aeb1 solid 3px; 
+    font-size: 18px;
+    line-height: 130px;
+    text-align: center;    
+/*    background: #d4aeb1;*/
+    color: #0000FF;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.sql{
+    margin-right: -55px;
+}
+
+.node {
+    margin-left: -55px;
+}
+
+.software_tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.software{
+/*    background-color: aquamarine;*/
+}
+
+.tools {
+/*    background-color: burlywood;*/
+}
+
+.software_tools p{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.software ul, .tools ul {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+/*end of skills*/
+/*beginning of school*/
+.school {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #34435E;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 3px;
+}
+
+.first {
+    font-size: 24px;
+}
+
+.education_title {
+    width: 40vw;
+    background-color: #d4aeb1;
+    color: #34435E;
+    text-shadow: 3px 3px #A64253;
+}
+/*end of education */
+/*beginning of projects */
+.projects{
+    color: #C57B57;
+}
+.projects_title{
+    width: 40vw;
+    text-shadow: 3px 3px #A64253;
+}
+
+.items {
+    width: 60vw;
+    font-family: 'Cabin', sans-serif;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+.items ul li:before{
+    content: '✓ ';
+}
+
+.policewatch{
+    padding-top: 50px;
+}
+
+.su_store{
+    padding-top: 60px;
+}
+
+.policewatch h4, .su_store h4{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.policewatch ul, .su_store ul{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.badges{
+    margin-left: 40px;
+}
+
+.badge{
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+
