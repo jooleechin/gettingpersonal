@@ -60,7 +60,7 @@
     }
 
     .title h2{
-        font-size: 60px;
+        font-size: 15vw;
         font-weight: 600;
         letter-spacing: 7px;
         margin: auto;
@@ -84,7 +84,7 @@
     }
 
     .skills_subsec p{
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 3px;
         margin-bottom: 10px;
         font-weight: 600;
@@ -118,11 +118,11 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     .software_tools p{
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 3px;
         font-weight: 600;
     }
@@ -130,7 +130,7 @@
     .software ul, .tools ul {
         list-style-type: none;
         padding: 0px;
-        font-size: 17px;
+        font-size: 15px;
         letter-spacing: 3px;
     }
     /*end of skills*/
@@ -179,6 +179,7 @@
         height: 30vh;
         width: 100vw;
         text-shadow: 3px 3px #A64253;
+        order: 1;
     }
 
     .items {
@@ -188,6 +189,7 @@
         max-width: 90vw;
         margin-left: auto;
         margin-right: auto;
+        order: 2;
     }
 
     .items ul {
@@ -201,21 +203,21 @@
     }
 
     .policewatch{
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .su_store{
-        padding-top: 20px;
+        padding-top: 12px;
     }
 
     .policewatch h4, .su_store h4{
         font-weight: 600;
-        font-size: 20px;
+        font-size: 7vw;
         letter-spacing: 2px;
     }
 
     .policewatch ul, .su_store ul{
-        font-size: 12px;
+        font-size: 3.3vw;
         letter-spacing: 1px;
     }
 
@@ -239,9 +241,7 @@
 
     .experience_item{
         height: 70vh;
-        max-width: 95vw;
         font-family: 'Cabin', sans-serif;
-        margin: auto;
         padding-top: 10px;
         display: flex;
         flex-direction: column;
@@ -252,7 +252,6 @@
 
     .exp{
         display: flex;
-        font-size: 15px;
         letter-spacing: 2px;
         align-items: center;
         padding-bottom: 7px;
@@ -266,8 +265,8 @@
     .dates{
         width: 30vw;
         font-family: 'Special Elite', cursive;
-        font-size: 13px;
-        margin-right: 10px;
+        font-size: 3.5vw;
+        margin-right: 8vw;
     }
 
     .company{
@@ -275,7 +274,7 @@
     }
     
     .company p{
-        font-size: 14px;
+        font-size: 3.5vw;
     }
 
     .company > p:first-child{
@@ -286,7 +285,7 @@
 
 /*end of mobile viewport*/
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 461px) {
     
 
     html{

@@ -34,6 +34,8 @@
         justify-content: center;
         align-content: center;
         height: 100vh;
+        max-width: 98vw;
+        margin: auto;
     }
 
     .blurb{
@@ -53,7 +55,7 @@
     }
     
     .together {
-        margin-bottom: 60px;
+        margin-bottom: 8%;
     }
 
     .email {
@@ -89,12 +91,13 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 0px;
+        text-align: center;
     }
     
 }
 
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 461px) {
     html{
         margin: 0;
         padding: 0;
