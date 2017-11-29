@@ -1,278 +1,590 @@
-html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: block;
-}
-
-body {
-    background-color: white;
-    color: #0000FF;
-}
-
-nav {
-    font-family: 'Cabin', sans-serif;
-    font-weight: 600;
-    font-size: 27px;
-    letter-spacing: 4px;
-    margin: 0px;
-    padding: 0px;
-}
-
-nav a{
-    margin-top: 30px;
-}
-
-.full_height {
-    display: flex;
-    height: 100vh;
-}
-
-.summary{
-    margin: 0 auto;
-    max-width: 960px;
-/*    background-color: aqua;*/
-    justify-content: center; 
-    align-items: center;
-}
-
-.summary h2{
-    font-size: 40px;
-    font-family: 'Cabin', sans-serif;
-    font-weight: 600;
-    letter-spacing: 3px;
-    line-height: 65px;
-    color: #0000FF
-}
-
-.skills{
-    font-family: 'Cabin', sans-serif;
-}
-
-.title {
-    width: 40vw; /*sizeofwindow*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d4aeb1;
-    font-family: 'Cabin', sans-serif;
-}
-
-.title h2{
-    font-size: 60px;
-    font-weight: 600;
-    letter-spacing: 7px;
-}
-
-.skills_title{
-    background-color: #d4aeb1;
-    text-shadow: 3px 3px #A64253;
-}
-
-.skills_content{
-    width: 60vw; /*size of window*/
-}
-
-.skills_subsec{
-    display: flex;
-    justify-content: center;
-/*    background-color: azure;*/
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
-
-.skills_subsec p{
-    font-size: 35px;
-    letter-spacing: 3px;
-    margin-bottom: 0px;
-    font-weight: 600;
-}
-
-.language_bubble {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style-type: none;
-    max-width: 500px;
-    margin: auto;
-}
-
-.circle {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    border: #d4aeb1 solid 3px; 
-    font-size: 18px;
-    line-height: 130px;
-    text-align: center;    
-/*    background: #d4aeb1;*/
-    color: #0000FF;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-}
-
-.sql{
-    margin-right: -55px;
-}
-
-.node {
-    margin-left: -55px;
-}
-
-.software_tools {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 40px;
-}
-
-.software{
-/*    background-color: aquamarine;*/
-}
-
-.tools {
-/*    background-color: burlywood;*/
-}
-
-.software_tools p{
-    font-size: 30px;
-    letter-spacing: 3px;
-    font-weight: 600;
-}
-
-.software ul, .tools ul {
-    list-style-type: none;
-    padding: 0px;
-    font-size: 20px;
-    letter-spacing: 3px;
-}
-/*end of skills*/
-/*beginning of school*/
-.school {
-    width: 60vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    color: #34435E;
-    font-family: 'Cabin', sans-serif;
-    font-size: 20px;
-    line-height: 18px;
-    letter-spacing: 3px;
-}
-
-.first {
-    font-size: 24px;
-}
-
-.fa {
-    margin-bottom: 16px;
-}
-
-.education_title {
-    width: 40vw;
-    background-color: #d4aeb1;
-    color: #34435E;
-    text-shadow: 3px 3px #A64253;
-}
-/*end of education */
-/*beginning of projects */
-.projects{
-    color: #C57B57;
-}
-.projects_title{
-    width: 40vw;
-    text-shadow: 3px 3px #A64253;
-}
-
-.items {
-    width: 60vw;
-    font-family: 'Cabin', sans-serif;
-    max-width: 50vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.items ul {
-    list-style-type: none;
-    margin-bottom: 0px;
-}
-
-.items ul li:before{
-    content: '✓ ';
-}
-
-.policewatch{
-    padding-top: 50px;
-}
-
-.su_store{
-    padding-top: 60px;
-}
-
-.policewatch h4, .su_store h4{
-    font-weight: 600;
-    font-size: 30px;
-    letter-spacing: 2px;
-}
-
-.policewatch ul, .su_store ul{
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
-.badges{
-    margin-left: 40px;
-}
-
-.badge{
-    font-size: 16px;
-    margin-top: 12px;
-}
-/*end of projects*/
-/*beginning of experience*/
-.experience_title {
-    width: 40vw;
-    text-shadow: 3px 3px #A64253;
-}
-
-.experience_item{
-    max-width: 60vw;
-    font-family: 'Cabin', sans-serif;
-    margin: auto;
+@media screen and (max-width: 460px) {
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav a:active {
+        text-decoration: line-through;
+    }
     
+    nav {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .full_height {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    main {
+        background-color: #F9F9F9;
+    }
+    
+    .summary{
+        justify-content: center; 
+        align-items: center;
+        background-color: white;
+    }
+
+    .summary h2{
+        font-size: 25px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        letter-spacing: 3px;
+        line-height: 35px;
+        color: #0000FF;
+        max-width: 85%;
+        
+    }
+
+    .skills{
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .title {
+        width: 100%; /*sizeofwindow*/
+        height: 30vh;
+        background-color: #d4aeb1;
+        font-family: 'Cabin', sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title h2{
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: 7px;
+        margin: auto;
+    }
+
+    .skills_title{
+        background-color: #d4aeb1;
+        text-shadow: 3px 3px #A64253;
+    }
+
+    .skills_content{
+        width: 100vw; /*size of window*/
+        height: 70vh;
+    }
+
+    .skills_subsec{
+        display: flex;
+        justify-content: center;
+    /*    background-color: azure;*/
+        padding-top: 15px;
+    }
+
+    .skills_subsec p{
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .language_bubble {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style-type: none;
+        max-width: 90vw;
+        margin: auto;
+        padding: 0;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: #d4aeb1 solid 3px; 
+        font-size: 15px;
+        line-height: 100px;
+        text-align: center;    
+    /*    background: #d4aeb1;*/
+        color: #0000FF;
+        letter-spacing: 3px;
+        margin-bottom: 5px;
+    }
+
+    .software_tools {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 30px;
+    }
+
+    .software_tools p{
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+
+    .software ul, .tools ul {
+        list-style-type: none;
+        padding: 0px;
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+    /*end of skills*/
+    /*beginning of school*/
+    
+    .school {
+        height: 70vh;
+        max-width: 90vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #F1AB86;
+        font-family: 'Cabin', sans-serif;
+        font-size: 14.5px;
+        letter-spacing: 3px;
+        margin: auto;
+        order: 2;
+    }
+
+    .first {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .school i {
+        display: none;
+    }
+
+    .education_title {
+        height: 30vh;
+        width: 100vw;
+        background-color: #d4aeb1;
+        color: #F1AB86;
+        text-shadow: 3px 3px #A64253;
+        margin: auto;
+        order: 1;
+    }
+
+    /*end of education */
+    /*beginning of projects */
+    .projects{
+        color: #C57B57;
+    }
+    .projects_title{
+        height: 30vh;
+        width: 100vw;
+        text-shadow: 3px 3px #A64253;
+    }
+
+    .items {
+        height: 70vh;
+        width: 100vw;
+        font-family: 'Cabin', sans-serif;
+        max-width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .items ul {
+        list-style-type: none;
+        margin-bottom: 0px;
+        padding-left: 20px;
+    }
+
+    .items ul li:before{
+        content: '✓ ';
+    }
+
+    .policewatch{
+        padding-top: 20px;
+    }
+
+    .su_store{
+        padding-top: 20px;
+    }
+
+    .policewatch h4, .su_store h4{
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .policewatch ul, .su_store ul{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .badges{
+        margin-left: 20px;
+    }
+
+    .badge{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    /*end of projects*/
+    /*beginning of experience*/
+    .experience_title {
+        height: 30vh;
+        width: 100vw;
+        text-shadow: 3px 3px #A64253;
+        color: #504746;
+        order: 1;
+    }
+
+    .experience_item{
+        height: 70vh;
+        max-width: 95vw;
+        font-family: 'Cabin', sans-serif;
+        margin: auto;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        order: 2;
+    }
+
+    .exp{
+        display: flex;
+        font-size: 15px;
+        letter-spacing: 2px;
+        align-items: center;
+        padding-bottom: 7px;
+    }
+
+    .exp p{
+        margin: 0;
+        color: #504746;
+    }
+
+    .dates{
+        width: 30vw;
+        font-family: 'Special Elite', cursive;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .company{
+        width: 50vw;
+    }
+    
+    .company p{
+        font-size: 14px;
+    }
+
+    .company > p:first-child{
+        font-weight: 600;
+    }
 }
 
-.exp{
-    display: flex;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding-bottom: 40px;
-    padding-left: 50px;
-    align-items: center;
+
+/*end of mobile viewport*/
+
+@media screen and (min-width: 460px) {
+    
+
+    html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    body {
+        color: #0000FF;
+    }
+
+    nav {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        font-size: 27px;
+        letter-spacing: 4px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav a{
+        margin-top: 30px;
+        position: relative;
+        color: #0000FF;
+        text-decoration: none;
+    }
+
+    .nav-link:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 45%;
+        left: 0;
+        background-color: #000;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transform-origin: center left;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .nav-link:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .nav-link:hover{
+        color: #0000FF;
+    }
+
+    .full_height {
+        display: flex;
+        height: 100vh;
+    }
+
+    main {
+        background-color: #F9F9F9;
+    }
+
+    .summary{
+        justify-content: center; 
+        align-items: center;
+        background-color: white;
+    }
+
+    .summary h2{
+        font-size: 40px;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        letter-spacing: 3px;
+        line-height: 65px;
+        color: #0000FF;
+        max-width: 960px;
+    }
+
+    .skills{
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .title {
+        width: 40vw; /*sizeofwindow*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d4aeb1;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .title h2{
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: 7px;
+    }
+
+    .skills_title{
+        background-color: #d4aeb1;
+        text-shadow: 3px 3px #A64253;
+    }
+
+    .skills_content{
+        width: 60vw; /*size of window*/
+    }
+
+    .skills_subsec{
+        display: flex;
+        justify-content: center;
+    /*    background-color: azure;*/
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .skills_subsec p{
+        font-size: 35px;
+        letter-spacing: 3px;
+        margin-bottom: 0px;
+        font-weight: 600;
+    }
+
+    .language_bubble {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style-type: none;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .circle {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: #d4aeb1 solid 3px; 
+        font-size: 18px;
+        line-height: 130px;
+        text-align: center;    
+    /*    background: #d4aeb1;*/
+        color: #0000FF;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+    }
+
+    .sql{
+        margin-right: -55px;
+    }
+
+    .node {
+        margin-left: -55px;
+    }
+
+    .software_tools {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+
+    .software_tools p{
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+
+    .software ul, .tools ul {
+        list-style-type: none;
+        padding: 0px;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    /*end of skills*/
+    /*beginning of school*/
+    .school {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: #F1AB86;
+        font-family: 'Cabin', sans-serif;
+        font-size: 20px;
+        line-height: 18px;
+        letter-spacing: 3px;
+    }
+
+    .first {
+        font-size: 24px;
+    }
+
+    .fa {
+        margin-bottom: 16px;
+    }
+
+    .education_title {
+        width: 40vw;
+        background-color: #d4aeb1;
+        color: #F1AB86;
+        text-shadow: 3px 3px #A64253;
+    }
+
+    /*end of education */
+    /*beginning of projects */
+    .projects{
+        color: #C57B57;
+    }
+    .projects_title{
+        width: 40vw;
+        text-shadow: 3px 3px #A64253;
+    }
+
+    .items {
+        width: 60vw;
+        font-family: 'Cabin', sans-serif;
+        max-width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .items ul {
+        list-style-type: none;
+        margin-bottom: 0px;
+    }
+
+    .items ul li:before{
+        content: '✓ ';
+    }
+
+    .policewatch{
+        padding-top: 50px;
+    }
+
+    .su_store{
+        padding-top: 60px;
+    }
+
+    .policewatch h4, .su_store h4{
+        font-weight: 600;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .policewatch ul, .su_store ul{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .badges{
+        margin-left: 40px;
+    }
+
+    .badge{
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    /*end of projects*/
+    /*beginning of experience*/
+    .experience_title {
+        width: 40vw;
+        text-shadow: 3px 3px #A64253;
+        color: #504746;
+    }
+
+    .experience_item{
+        max-width: 60vw;
+        font-family: 'Cabin', sans-serif;
+        margin: auto;
+    }
+
+    .exp{
+        display: flex;
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+        align-items: center;
+    }
+
+    .exp p{
+        margin: 0;
+        color: #504746;
+    }
+
+    .dates{
+        width: 30vw;
+        font-family: 'Special Elite', cursive;
+        font-size: 18px;
+    }
+
+    .company{
+        width: 50vw;
+    }
+
+    .company > p:first-child{
+        font-weight: 600;
+    }
+
 }
-
-.exp p{
-    margin: 0;
-}
-
-.dates{
-    width: 30vw;
-    font-family: 'Special Elite', cursive;
-    font-size: 18px;
-}
-
-.company{
-    width: 50vw;
-}
-
-.company > p:first-child{
-    font-weight: 600;
-}
-
-
-
-
-
-

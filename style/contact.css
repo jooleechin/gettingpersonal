@@ -1,0 +1,208 @@
+@media screen and (max-width: 460px) {
+    html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    body {
+        background-color: white;
+        color: #0000FF;
+    }
+    .nav a:active, .list li:active {
+        text-decoration: line-through;
+    }
+    
+    
+    nav {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .full_height {
+        height: 100vh;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+    }
+
+    .blurb{
+        color: #F1AB86;
+        text-shadow: 4px 4px #A64253;
+        font-family: 'Cabin', sans-serif;
+    /*    background-color: bisque;*/
+        margin-top: 10px;
+        margin-bottom: 10px;
+        letter-spacing: 9px;
+    }
+
+    .blurb h2{
+        font-size: 45px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .together {
+        margin-bottom: 60px;
+    }
+
+    .email {
+        font-size: 15px;
+        font-family: 'Special Elite', cursive;
+        letter-spacing: 2px;
+        color: #F1AB86;
+        text-align: center;
+    }
+
+    .social_media img {
+        margin-right: 5px;
+    }
+
+    .social_media ul li {
+        list-style-type: none;
+        font-family: 'Cabin', sans-serif;
+        font-size: 16px;
+        letter-spacing: 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .social_media li a{
+        vertical-align: middle;
+        color: #F1AB86;
+        text-decoration: none;
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    
+}
+
+
+@media screen and (min-width: 460px) {
+    html{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    body {
+        background-color: white;
+        color: #0000FF;
+    }
+
+    nav {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        font-size: 27px;
+        letter-spacing: 4px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav a, .social_media a{
+        margin-top: 30px;
+        position: relative;
+        color: #0000FF;
+        text-decoration: none;
+    }
+
+    .nav-link:before, .social_media a:before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 45%;
+        left: 0;
+        background-color: #000;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transform-origin: center left;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .nav-link:hover:before, .social_media a:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .nav-link:hover{
+        color: #0000FF;
+    }
+
+    .full_height {
+        height: 100vh;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blurb{
+        color: #F1AB86;
+        text-shadow: 4px 4px #A64253;
+        font-family: 'Cabin', sans-serif;
+    /*    background-color: bisque;*/
+        margin-top: 50px;
+        margin-bottom: 20px;
+        letter-spacing: 9px;
+    }
+
+    .blurb h2{
+        font-size: 100px;
+        font-weight: 600;
+    }
+
+    .email {
+        font-size: 30px;
+        font-family: 'Special Elite', cursive;
+        letter-spacing: 2px;
+        color: #F1AB86;
+        text-align: center;
+    }
+    
+    .together{
+        padding-bottom: 80px;
+    }
+
+    .social_media img {
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+
+    .social_media ul li {
+        list-style-type: none;
+        font-family: 'Cabin', sans-serif;
+        font-size: 21px;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+
+    }
+
+    .social_media li a{
+        vertical-align: middle;
+        color: #F1AB86;
+        text-decoration: none;
+    }
+}

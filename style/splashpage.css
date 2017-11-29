@@ -1,92 +1,197 @@
-html{
-    width: 100vw;
-    height: 100%vh;
-    margin: 0;
-    padding: 0;
+@media screen and (max-width: 460px) {
+    html {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image:
+            linear-gradient(
+              to right, 
+              #d4aeb1 50%,
+              white 50%
+            );
+        padding-left: 20px;
+        padding-right: 20px;
+        background-position: center top;
+        background-size: 100% auto;
+        color: #0000FF;
+    }
+    
+    .nav a:active {
+        text-decoration: line-through;
+    }
+    
+    nav {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .photo{
+        display: block;
+        padding-top: 180px;
+        margin-left: 100px;
+    }
+
+    .photo img{
+        max-height: auto;
+        max-width: 65vw;
+        display: block;
+    }
+    
+    .name {
+        position: absolute;
+        font-family: 'Cabin', sans-serif;
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        font-size: 25px;
+        letter-spacing: 20px;
+        font-weight: 600;
+        top: 50%;
+        left: 8%;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .words {
+        font-family: 'Special Elite', cursive;
+        font-size: 15px;
+        margin: 0px;
+        letter-spacing: 2px;
+        padding-top: 350px;
+        position: absolute;
+        margin-left: -70px;
+    }
 }
+ 
+@media screen and (min-width: 640px) {
+    html{
+        width: 100vw;
+        height: 100%vh;
+        margin: 0;
+        padding: 0;
+    }
 
-body {
-    background-image:
-        linear-gradient(
-          to right, 
-          #d4aeb1 50%,
-          white 50%
-        );
-    padding-left: 20px;
-    padding-right: 20px;
-    background-position: center top;
-    background-size: 100% auto;
-    color: #0000FF;
+    body {
+        background-image:
+            linear-gradient(
+              to right, 
+              #d4aeb1 50%,
+              white 50%
+            );
+        padding-left: 20px;
+        padding-right: 20px;
+        background-position: center top;
+        background-size: 100% auto;
+        color: #0000FF;
+    }
+
+    nav {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 600;
+        font-size: 27px;
+        letter-spacing: 4px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav a{
+        margin-top: 30px;
+        position: relative;
+        color: #0000FF;
+        text-decoration: none;
+    }
+
+    .nav-link:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 45%;
+        left: 0;
+        height: 3px;
+        background-color: #000;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transform-origin: center left;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .nav-link:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .nav-link:hover{
+        color: #0000FF;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .name {
+        position: absolute;
+        font-family: 'Cabin', sans-serif;
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        font-size: 45px;
+        letter-spacing: 20px;
+        font-weight: 600;
+        top: 45%;
+        left: 8%;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .words {
+        font-family: 'Special Elite', cursive;
+        font-size: 18px;
+        margin: 0px;
+        letter-spacing: 2px;
+        padding-top: 340px;
+        position: absolute;
+        margin-left: -55px;
+    }
+
+    .words p{
+        margin-left: -540px;
+    }
+
+
+    .photo{
+        display: block;
+        padding-top: 150px;
+        margin-left: 270px;
+    }
+
+    .photo img{
+        max-height: auto;
+        max-width: 33vw;
+        display: block;
+    }
+
+    .sentence {
+        font-family: 'Cabin', sans-serif;
+        right: 15%;
+        bottom: 25%;
+        position: absolute;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
 }
-
-nav {
-    font-family: 'Cabin', sans-serif;
-    font-weight: 600;
-    font-size: 27px;
-    letter-spacing: 4px;
-    margin: 0px;
-    padding: 0px;
-}
-
-nav a{
-    margin-top: 30px;
-}
-
-.content {
-    position: relative;
-}
-
-.name {
-    position: absolute;
-    font-family: 'Cabin', sans-serif;
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    font-size: 45px;
-    letter-spacing: 20px;
-    font-weight: 600;
-    top: 45%;
-    left: 8%;
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-}
-
-.words {
-    font-family: 'Special Elite', cursive;
-    font-size: 18px;
-    margin: 0px;
-    letter-spacing: 2px;
-    padding-top: 340px;
-    position: absolute;
-    margin-left: -55px;
-}
-
-.words p{
-    margin-left: -540px;
-}
-
-
-.photo{
-    display: block;
-    padding-top: 150px;
-    margin-left: 270px;
-}
-
-.photo img{
-    max-height: auto;
-    max-width: 33vw;
-    display: block;
-}
-
-.sentence {
-    font-family: 'Cabin', sans-serif;
-    right: 15%;
-    bottom: 25%;
-    position: absolute;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 18px;
-}
-
