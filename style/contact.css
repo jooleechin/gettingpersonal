@@ -39,8 +39,8 @@
     }
 
     .blurb{
-        color: #F1AB86;
-        text-shadow: 4px 4px #A64253;
+        color: #D4AEB1;
+        text-shadow: 4px 4px #545E75;
         font-family: 'Cabin', sans-serif;
     /*    background-color: bisque;*/
         margin-top: 10px;
@@ -60,9 +60,9 @@
 
     .email {
         font-size: 15px;
-        font-family: 'Special Elite', cursive;
+        font-family: athelas, georgia, serif;
         letter-spacing: 2px;
-        color: #F1AB86;
+        color: #D4AEB1;
         text-align: center;
     }
 
@@ -82,7 +82,7 @@
 
     .social_media li a{
         vertical-align: middle;
-        color: #F1AB86;
+        color: #D4AEB1;
         text-decoration: none;
     }
     
@@ -163,25 +163,24 @@
     }
 
     .blurb{
-        color: #F1AB86;
-        text-shadow: 4px 4px #A64253;
+        color: #D4AEB1; 
+        text-shadow: 4px 4px #545E75; 
         font-family: 'Cabin', sans-serif;
-    /*    background-color: bisque;*/
         margin-top: 50px;
         margin-bottom: 20px;
         letter-spacing: 9px;
     }
 
     .blurb h2{
-        font-size: 100px;
+        font-size: 90px;
         font-weight: 600;
     }
 
     .email {
         font-size: 30px;
-        font-family: 'Special Elite', cursive;
+        font-family: athelas, georgia, serif;
         letter-spacing: 2px;
-        color: #F1AB86;
+        color: #D4AEB1;
         text-align: center;
     }
     
@@ -205,7 +204,7 @@
 
     .social_media li a{
         vertical-align: middle;
-        color: #F1AB86;
+        color: #D4AEB1;
         text-decoration: none;
     }
 }

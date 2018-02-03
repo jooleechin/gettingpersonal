@@ -5,11 +5,11 @@
         margin: 0;
         padding: 0;
     }
-    
+
     body {
         background-image:
             linear-gradient(
-              to right, 
+              to right,
               #d4aeb1 50%,
               white 50%
             );
@@ -19,11 +19,11 @@
         background-size: 100% auto;
         color: #0000FF;
     }
-    
+
     .nav a:active {
         text-decoration: line-through;
     }
-    
+
     nav {
         font-family: 'Cabin', sans-serif;
         font-weight: 600;
@@ -32,10 +32,10 @@
         margin: 0px;
         padding: 0px;
     }
-    
+
     .photo{
         display: block;
-        padding-top: 180px;
+        padding-top: 130px;
         margin-left: 100px;
     }
 
@@ -44,7 +44,7 @@
         max-width: 65vw;
         display: block;
     }
-    
+
     .name {
         position: absolute;
         font-family: 'Cabin', sans-serif;
@@ -72,7 +72,7 @@
         margin-left: -70px;
     }
 }
- 
+
 @media screen and (min-width: 641px) {
     html{
         width: 100vw;
@@ -84,7 +84,7 @@
     body {
         background-image:
             linear-gradient(
-              to right, 
+              to right,
               #d4aeb1 50%,
               white 50%
             );
@@ -180,9 +180,9 @@
     }
 
     .photo img{
-        max-height: auto;
-        max-width: 33vw;
+        max-width: 40vw;
         display: block;
+
     }
 
     .sentence {

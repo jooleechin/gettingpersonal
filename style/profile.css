@@ -67,13 +67,15 @@
     }
 
     .skills_title{
+        color: #545E75;
         background-color: #d4aeb1;
-        text-shadow: 3px 3px #A64253;
+        text-shadow: 3px 3px #f9f9f9;
     }
 
     .skills_content{
         width: 100vw; /*size of window*/
         height: 70vh;
+        color: #545E75;
     }
 
     .skills_subsec{
@@ -104,14 +106,14 @@
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        border: #d4aeb1 solid 3px; 
+        border: #d4aeb1 dotted 3px; 
         font-size: 15px;
         line-height: 100px;
-        text-align: center;    
-    /*    background: #d4aeb1;*/
-        color: #0000FF;
+        text-align: center;
+        color: #545E75;
         letter-spacing: 3px;
         margin-bottom: 5px;
+        font-family: athelas, georgia, serif;
     }
 
     .software_tools {
@@ -132,6 +134,9 @@
         padding: 0px;
         font-size: 15px;
         letter-spacing: 3px;
+        font-family: athelas,
+               georgia,
+               serif;
     }
     /*end of skills*/
     /*beginning of school*/
@@ -143,12 +148,15 @@
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
-        color: #F1AB86;
+        color: #545E75;
         font-family: 'Cabin', sans-serif;
         font-size: 14.5px;
         letter-spacing: 3px;
         margin: auto;
         order: 2;
+        font-family: athelas,
+               georgia,
+               serif;
     }
 
     .first {
@@ -164,8 +172,8 @@
         height: 30vh;
         width: 100vw;
         background-color: #d4aeb1;
-        color: #F1AB86;
-        text-shadow: 3px 3px #A64253;
+        color: #545E75;
+        text-shadow: 3px 3px #f9f9f9;
         margin: auto;
         order: 1;
     }
@@ -173,23 +181,25 @@
     /*end of education */
     /*beginning of projects */
     .projects{
-        color: #C57B57;
+        color: #545E75;
     }
     .projects_title{
         height: 30vh;
         width: 100vw;
-        text-shadow: 3px 3px #A64253;
+        text-shadow: 3px 3px #f9f9f9;
         order: 1;
     }
 
     .items {
         height: 70vh;
         width: 100vw;
-        font-family: 'Cabin', sans-serif;
         max-width: 90vw;
         margin-left: auto;
         margin-right: auto;
         order: 2;
+        font-family: athelas,
+               georgia,
+               serif;
     }
 
     .items ul {
@@ -199,7 +209,7 @@
     }
 
     .items ul li:before{
-        content: '✓ ';
+        content: "\2713";
     }
 
     .policewatch{
@@ -234,14 +244,16 @@
     .experience_title {
         height: 30vh;
         width: 100vw;
-        text-shadow: 3px 3px #A64253;
-        color: #504746;
+        text-shadow: 3px 3px #f9f9f9;
+        color: #545E75;
         order: 1;
     }
 
     .experience_item{
         height: 70vh;
-        font-family: 'Cabin', sans-serif;
+        font-family: athelas,
+               georgia,
+               serif;
         padding-top: 10px;
         display: flex;
         flex-direction: column;
@@ -259,12 +271,14 @@
 
     .exp p{
         margin: 0;
-        color: #504746;
+        color: #545E75;
     }
 
     .dates{
         width: 30vw;
-        font-family: 'Special Elite', cursive;
+        font-family: athelas,
+               georgia,
+               serif;
         font-size: 3.5vw;
         margin-right: 8vw;
     }
@@ -386,12 +400,14 @@
     }
 
     .skills_title{
+        color: #545E75;
         background-color: #d4aeb1;
-        text-shadow: 3px 3px #A64253;
+        text-shadow: 3px 3px #f9f9f9;
     }
 
     .skills_content{
         width: 60vw; /*size of window*/
+        color: #545E75;
     }
 
     .skills_subsec{
@@ -422,14 +438,15 @@
         width: 130px;
         height: 130px;
         border-radius: 50%;
-        border: #d4aeb1 solid 3px; 
+        border: #d4aeb1 dotted 3px; 
         font-size: 18px;
         line-height: 130px;
         text-align: center;    
     /*    background: #d4aeb1;*/
-        color: #0000FF;
+        color: #545E75;
         letter-spacing: 3px;
         margin-bottom: 10px;
+        font-family: athelas, georgia, serif;
     }
 
     .sql{
@@ -458,6 +475,9 @@
         padding: 0px;
         font-size: 20px;
         letter-spacing: 3px;
+        font-family: athelas,
+               georgia,
+               serif;
     }
     /*end of skills*/
     /*beginning of school*/
@@ -468,11 +488,14 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        color: #F1AB86;
+        color: #545E75;
         font-family: 'Cabin', sans-serif;
         font-size: 20px;
         line-height: 18px;
         letter-spacing: 3px;
+        font-family: athelas,
+               georgia,
+               serif;
     }
 
     .first {
@@ -486,26 +509,31 @@
     .education_title {
         width: 40vw;
         background-color: #d4aeb1;
-        color: #F1AB86;
-        text-shadow: 3px 3px #A64253;
+        color: #545E75;
+        text-shadow: 3px 3px #f9f9f9;
     }
 
     /*end of education */
     /*beginning of projects */
     .projects{
-        color: #C57B57;
+        color: #545E75;
+        
     }
     .projects_title{
         width: 40vw;
-        text-shadow: 3px 3px #A64253;
+        text-shadow: 3px 3px #f9f9f9;
     }
 
     .items {
         width: 60vw;
-        font-family: 'Cabin', sans-serif;
+        font-family: athelas,
+               georgia,
+               serif;
         max-width: 50vw;
         margin-left: auto;
         margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .items ul {
@@ -514,21 +542,22 @@
     }
 
     .items ul li:before{
-        content: '✓ ';
+        content: "\2713";
     }
 
     .policewatch{
-        padding-top: 50px;
+        padding-bottom: 20px;
     }
 
     .su_store{
-        padding-top: 60px;
+        padding-top: 20px;
     }
 
     .policewatch h4, .su_store h4{
         font-weight: 600;
-        font-size: 30px;
+        font-size: 32px;
         letter-spacing: 2px;
+        padding-bottom: 10px;
     }
 
     .policewatch ul, .su_store ul{
@@ -548,13 +577,15 @@
     /*beginning of experience*/
     .experience_title {
         width: 40vw;
-        text-shadow: 3px 3px #A64253;
-        color: #504746;
+        text-shadow: 3px 3px #f9f9f9;
+        color: #545E75;
     }
 
     .experience_item{
         max-width: 60vw;
-        font-family: 'Cabin', sans-serif;
+        font-family: athelas,
+               georgia,
+               serif;
         margin: auto;
     }
 
@@ -569,12 +600,14 @@
 
     .exp p{
         margin: 0;
-        color: #504746;
+        color: #545E75;
     }
 
     .dates{
         width: 30vw;
-        font-family: 'Special Elite', cursive;
+        font-family: athelas,
+               georgia,
+               serif;
         font-size: 18px;
     }
 
