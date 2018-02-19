@@ -10,21 +10,32 @@
         <script src="https://use.fontawesome.com/5d4d7940f9.js"></script>
         <link href="profile.html"> <!--so that #top works-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
         <link href="contact.html">
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    menu: '#menu',
+                    scrollingSpeed: 1000
+                });
+            });
+        </script>
     </head>
+    <header>
+        <nav class="flex justify-center">
+            <a class="nav-link" href="index.html">home</a>
+            <a class="nav-link" href="profile.html#top">profile</a>
+            <a class="nav-link" href="http://linkedin.com/in/jooleechin">linkedin</a>
+            <a class="nav-link" href="contact.html#top2">contact</a>
+        </nav>
+    </header> 
     <body>
-        <header>
-            <nav class="nav justify-content-center">
-                <a class="nav-link" href="index.html">home</a>
-                <a class="nav-link" href="profile.html#top">profile</a>
-                <a class="nav-link" href="http://linkedin.com/in/jooleechin">linkedin</a>
-                <a class="nav-link" href="contact.html#top2">contact</a>
-            </nav>
-        </header>
         <main>
             <section class="summary full_height" id="top">
-                <h2 class="text-center">hi, my name is joolee chin and i'm a software developer that has full-stack knowledge and enjoys making pixel-perfect websites. </h2>
+                <h2 class="text-center">hi, my name is joolee chin and i'm a software developer that has full-stack knowledge and enjoys making responsive websites. </h2>
             </section> <!--end of summary -->
+
             <section class="skills full_height">
                 <div class="skills_title title">
                     <h2>skills</h2>
@@ -52,6 +63,8 @@
                                 <li>// heroku</li>
                                 <li>// express.js</li>
                                 <li>// knex.js</li>
+                                <li>// postgreSQL</li>
+                                <li>// chart.js</li>
                             </ul>
                         </div>
                         <div class="tools">
@@ -60,15 +73,18 @@
                                 <li>// git + github</li>
                                 <li>// bootstrap</li>
                                 <li>// command line</li>
+                                <li>// RESTful WebServies</li>
+                                <li>// surge</li>
                             </ul>
                         </div>
                     </div><!--end of softwaretools-->
                 </div> 
             </section> <!-- end of skills-->
+
             <section class="education full_height">
                 <div class="school text-lowercase">
                     <p class="first">syracuse university</p>
-                    <p>Bachelor of Science in Information Technology and Technology</p>
+                    <p class="tc">Bachelor of Science in Information Technology and Technology</p>
                     <p>Minor in Global Enterprise Technology</p>
                     <i class="fa fa-university fa-2x" aria-hidden="true"></i>
                     <p>Dean's List 2012-2016 | May 2016</p>
@@ -131,31 +147,49 @@
                         </div>
                     </div>
                 </div>
-            </section><!-- end of experience-->
+            </section> <!-- end of experience-->
+
             <section class="projects full_height">
                 <div class="items">
-                    <article class="policewatch">
-                        <h4>personal website | jooleechin.com</h4>
+                    <article class="keeper mb3">
+                        <h4>bitKeeper</h4>
                         <ul>
-                            <li>Developed a personal website displaying my resume.</li>                        </ul>
+                            <li> Developed a cryptocurrency management tool to keep track of all your investments.</li>
+                            <li> Utilized a websocket from GDAX to retrieve real-time data.</li>
+                        </ul>
                         <div class="badges">
                             <span class="badge badge-primary">HTML</span>
                             <span class="badge badge-primary">CSS</span>
                             <span class="badge badge-primary">JavaScript</span>
-                            <span class="badge badge-primary">Bootstrap</span>
+                            <span class="badge badge-primary">heroku</span>
+                            <span class="badge badge-primary">knex.js</span>
+                            <span class="badge badge-primary">express.js</span>
+                            <span class="badge badge-primary">chart.js</span>
                         </div>
-                    </article><!--end of policewatch-->
-                    <article class="su_store">
-                        <h4>skincare product lookup/generator | jooleechin.surge.sh</h4>
+                    </article> <!-- end of keeper-->
+                    <article class="skinCare mb3">
+                        <h4>skincare lookup/generator | <a href='http://jooleechin.surge.sh/'>jooleechin.surge.sh</a></h4>
                         <ul>
-                            <li>Developed a one-stop webpage to look up skincare products’ ingredients as well as a quiz where the user can answer a couple of questions to create a personalized skincare routine.</li>
+                            <li> Developed a one-stop webpage to look up skincare products’ ingredients as well as a quiz where the user can answer a couple of questions to create a personalized skincare routine.</li>
                         </ul>
                         <div class="badges">
                             <span class="badge badge-primary">JavaScript</span>
                             <span class="badge badge-primary">HTML</span>
                             <span class="badge badge-primary">CSS</span>
                         </div>
-                    </article>
+                    </article> <!-- end of skincare-->
+                    <article class="website">
+                        <h4>personal website | <a href="http://www.jooleechin.com">jooleechin.com</a></h4>
+                        <ul>
+                            <li> Developed a personal website displaying my resume.</li>       
+                        </ul>
+                        <div class="badges">
+                            <span class="badge badge-primary">HTML</span>
+                            <span class="badge badge-primary">CSS</span>
+                            <span class="badge badge-primary">JavaScript</span>
+                            <span class="badge badge-primary">Bootstrap</span>
+                        </div>
+                    </article><!--end of website-->
                 </div>
                 <div class="projects_title title">
                     <h2>projects</h2>

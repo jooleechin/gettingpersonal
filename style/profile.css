@@ -27,6 +27,7 @@
     
     main {
         background-color: #F9F9F9;
+        height: 100%;
     }
     
     .summary{
@@ -43,7 +44,6 @@
         line-height: 35px;
         color: #0000FF;
         max-width: 85%;
-        
     }
 
     .skills{
@@ -212,21 +212,13 @@
         content: "\2713";
     }
 
-    .policewatch{
-        padding-top: 10px;
-    }
-
-    .su_store{
-        padding-top: 12px;
-    }
-
-    .policewatch h4, .su_store h4{
+    .items h4{
         font-weight: 600;
         font-size: 7vw;
         letter-spacing: 2px;
     }
 
-    .policewatch ul, .su_store ul{
+    .items ul{
         font-size: 3.3vw;
         letter-spacing: 1px;
     }
@@ -297,11 +289,9 @@
 }
 
 
-/*end of mobile viewport*/
+/*---------------------------------------end of mobile viewport*/
 
 @media screen and (min-width: 461px) {
-    
-
     html{
         margin: 0;
         padding: 0;
@@ -493,9 +483,7 @@
         font-size: 20px;
         line-height: 18px;
         letter-spacing: 3px;
-        font-family: athelas,
-               georgia,
-               serif;
+        font-family: athelas, georgia, serif;
     }
 
     .first {
@@ -526,9 +514,7 @@
 
     .items {
         width: 60vw;
-        font-family: athelas,
-               georgia,
-               serif;
+        font-family: athelas, georgia, serif;
         max-width: 50vw;
         margin-left: auto;
         margin-right: auto;
@@ -538,30 +524,20 @@
 
     .items ul {
         list-style-type: none;
-        margin-bottom: 0px;
     }
 
     .items ul li:before{
         content: "\2713";
     }
 
-    .policewatch{
-        padding-bottom: 20px;
-    }
-
-    .su_store{
-        padding-top: 20px;
-    }
-
-    .policewatch h4, .su_store h4{
+    .items h4{
         font-weight: 600;
-        font-size: 32px;
+        font-size: 1.6vw;
         letter-spacing: 2px;
-        padding-bottom: 10px;
     }
 
-    .policewatch ul, .su_store ul{
-        font-size: 20px;
+    .items ul{
+        font-size: 1.2vw;
         letter-spacing: 1px;
     }
 
@@ -570,8 +546,8 @@
     }
 
     .badge{
-        font-size: 16px;
-        margin-top: 12px;
+        font-size: .85vw;
+        margin-right: 3px;
     }
     /*end of projects*/
     /*beginning of experience*/

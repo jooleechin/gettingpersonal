@@ -1,0 +1,23 @@
+{
+  "name": "gettingpersonal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jooleechin/gettingpersonal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jooleechin/gettingpersonal/issues"
+  },
+  "homepage": "https://github.com/jooleechin/gettingpersonal#readme",
+  "dependencies": {
+    "fullpage.js": "^2.9.6"
+  }
+}
